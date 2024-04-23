@@ -1,0 +1,71 @@
+/* GAURAV */
+
+#button {
+    font-size: 25px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    border: 0.1rem solid #56a5eb;
+    text-decoration: none;
+    color:  #56a5eb;
+    background-color: white;
+    text-transform: uppercase;
+
+}
+body{
+    background-color:#B9D9EB;
+}
+main{
+    text-align: center;
+    padding: 100px;
+    
+}
+.container{
+    background-color: white;
+    width: 80vw;
+    max-width: 80rem;
+    padding: 40px;
+    border-left:solid black;
+}
+#button:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+
+#quote{
+    font-size: 50px;
+    color: #56a5eb;
+    margin-bottom: 5rem;
+    text-align: left;
+
+}
+
+#author{
+    text-transform: capitalize;
+    color: black;
+    text-align: right;
+    font-style: italic;
+    font-size: 30px;
+    padding-right: 5%;
+    color: #ced0cc;
+}
+
+nav{
+    background-color: white;
+    color: #56a5eb;
+    border-radius: 3px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color: #56a5eb;
+    font-size: x-large;
+    
+}
+
+nav a:hover{
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
